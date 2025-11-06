@@ -46,6 +46,13 @@ public class Main {
         System.out.println(1/2); // dividir
         System.out.println(10%2); // Modular
         System.out.println(Math.pow(2, 5)); // Operaciones compejas matematicas.
+
+        // Llamar instancias
+        condicionales instancia = new condicionales();
+        instancia.verificarNumero();
+        instancia.longText("lorem10");
+        instancia.diaSemana(7);
+
     }
 
     // Funciones
@@ -59,9 +66,17 @@ public class Main {
         } else {
             // algo
         }
-
         System.out.println("cosas por nacer");
         System.out.println(actividades[dia]);
+
+        
     }
 
 }
+
+
+
+
+
+
+
