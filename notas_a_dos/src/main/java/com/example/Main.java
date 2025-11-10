@@ -1,4 +1,5 @@
 package com.example;
+import java.util.Scanner;
 
 public class Main {
 
@@ -52,7 +53,7 @@ public class Main {
         instancia.verificarNumero();
         instancia.longText("lorem10");
         instancia.diaSemana(7);
-
+        instancia.retornosDeTexto();
     }
 
     // Funciones
@@ -71,6 +72,8 @@ public class Main {
 
         
     }
+
+    
 
 }
 

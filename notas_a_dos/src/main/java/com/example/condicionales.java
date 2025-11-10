@@ -1,4 +1,5 @@
 package com.example;
+import java.util.Scanner;
 
 public class condicionales {
     // Crea un programa que diga si un numero es par o impar
@@ -44,5 +45,21 @@ public class condicionales {
         System.out.println(txt.length());
     }
 
-    // int[] numeros = new int[100];
+    public static void retornosDeTexto(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("1: ");
+            int min = scan.nextInt();
+
+        System.out.println("2: ");
+            int max = scan.nextInt();
+
+        int total = min + max;
+
+        System.out.println("El total es: " + total);
+        scan.close();
+
+    }
+
+
+    
 }
